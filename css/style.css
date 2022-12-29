@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+
+.heading{
+    font-size: 30px;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.primery-element{
+    color: #f7c88a;
+}
+.py-3{
+    padding-top: 30px ;
+}
+.lead{
+    font-size: 20px;
+}
+.btn{
+    display:inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #444;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+   
+}
+ .btn-light{
+    background: #f4f4f4f4;
+    color: #444;
+}
+.btn:hover{
+background-color: #f7c88a;
+color: #333;
+}
+
+.background-dark{
+    background-color: #333;
+    color: #fff;
+}
+.background-light{
+background: #f4f4f4f4;
+color: #333;
+}
+.background-primary{
+    background-color:#f7c88a;
+    color:#333;
+}
+
+ #navbar{
+    background-color:#333;
+    color: white;
+    overflow: auto;
+
+ }
+  #navbar a {
+    color: white;
+  } 
+  #navbar h1 {
+     float: left;
+     padding-top: 20px;
+  }
+ #navbar ul {
+    float: right;
+    list-style: none;
+ }
+ #navbar ul li {
+ float: left;
+ } 
+ #navbar ul li a {
+    display: block;
+    padding:20px;
+        text-align: center;
+ }
+
+ #navbar ul li a:hover , #navbar ul li a.current  {
+   background:  #444;
+   color:#f7c88a;
+ }
+  .mainSubject{
+    background-image: url(../images/showcase.jpg );
+    background-position: center/cover;
+   
+    background-repeat: no-repeat;
+    height: 600px;
+
+  }
+  .mainSubject .mainsubject-content{
+    color:white;
+    text-align: center;
+    padding-top: 170px;
+  }
+  .mainSubject .mainsubject-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+.mainSubject .mainsubject-content p{
+    padding-bottom: 20px;
+    line-height: 1.6em;
+}
+
+#hotel-info{
+    height: 400px;
+
+}
+#hotel-info .info-img{
+float: left;
+width: 50%;
+background-image:url(../images/photo-1.jpg);
+background-repeat: no-repeat;
+min-height: 100%;
+}
+#hotel-info .info-content{
+    float:right ;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+padding: 50px 30px;
+overflow: hidden;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+#about-info .right-side{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .right-side img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+} 
+
+#about-info .left-side{
+float: left;
+width: 50%;
+min-height: 100%;
+}
+
+#feedbacks{
+    height: 600px;
+    background-image: url(../images/test-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+}
+ 
+#feedbacks h2{
+    color: white ;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#feedbacks .feedback img{
+width: 100px;
+float: left;
+margin-right: 20px;
+border-radius: 50%;
+}
+#contact-form{
+    padding-left: 50px;
+}
+
+#feedbacks .feedback{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+#contact-form .form-group{
+margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, #contact-form textarea{
+width: 100%;
+padding: 10px;
+border: 1px #ddd solid;
+}
+#contact-form  textarea{
+    height: 200px;
+}
+#contact-form input:focus, #contact-form textarea:focus{
+    outline: none;
+    border-color: #f7c88a;
+}
